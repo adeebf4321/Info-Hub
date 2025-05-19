@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>INFO HUB</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+    <div class="container">
+        <h1>WELCOME TO INFO HUB</h1>
+
+        <input type="text" id="input" placeholder="Enter domain, IP address, or phone number">
+        
+        <select id="type">
+            <option value="domain">Domain</option>
+            <option value="ip">IP Address</option>
+            <option value="phone">Phone Number</option>
+        </select>
+
+        <button onclick="lookup()">Search</button>
+
+        <pre id="result">Results will appear here...</pre>
+    </div>
+
+    <script src="/static/script.js"></script>
+</body>
+</html>
